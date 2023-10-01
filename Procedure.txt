@@ -2,3 +2,14 @@
 
 Use git rm —-cached <file> to remove the specified <file> from the index.
 Use git commit —-amend to update the contents of the last commit, without changing its message.
+
+#git remote -v
+
+To verify that the remote repo was added to your configuration, use the git remote –v command.
+This command will show that GitHub is the fetch and push targets of the local repository.
+
+# Create tag
+To create a tag first, checkout to the branch where you want to create a tag.
+To check out the branch.
+git tag <tag name>  -m "msg"
+
