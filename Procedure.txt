@@ -1,0 +1,4 @@
+#Remove a file from working directory
+
+Use git rm —-cached <file> to remove the specified <file> from the index.
+Use git commit —-amend to update the contents of the last commit, without changing its message.
