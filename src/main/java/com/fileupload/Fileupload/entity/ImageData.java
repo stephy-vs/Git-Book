@@ -17,7 +17,9 @@ public class ImageData {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-     private String name;
+    @Column(name = "name")
+    private String name;
+    @Column(name = "type")
     private String type;
     @Lob
     @Column(name = "imagedata",length = 1000)

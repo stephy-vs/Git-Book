@@ -33,4 +33,6 @@ public class FileData {
     @JoinColumn(name = "uId")
     private UsersModel usersModel;
 
+    //user registration and file upload.
+
 }
